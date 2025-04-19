@@ -1,14 +1,8 @@
 import type { Metadata } from 'next'
-import {
-  ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from '@clerk/nextjs'
+import { ClerkProvider, SignedIn, UserButton } from '@clerk/nextjs'
 import { Geist, Geist_Mono } from 'next/font/google'
 import './globals.css'
+import { dark } from '@clerk/themes'
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -31,18 +25,31 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <ClerkProvider>
+    <ClerkProvider
+      appearance={{
+        baseTheme: dark
+      }}>
       <html lang="en">
-        <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-          <header className="flex justify-end items-center p-4 gap-4 h-16">
-            <SignedOut>
+        <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black`}>
+          {/* <header className="flex justify-end items-center p-4 gap-4 h-16"> */}
+          {/* <SignedOut>
               <SignInButton />
               <SignUpButton />
-            </SignedOut>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
-          </header>
+            </SignedOut> */}
+          <SignedIn>
+            <header className="flex justify-end items-center p-4 gap-4 h-16">
+              <UserButton
+                appearance={{
+                  elements: {
+                    userButtonPopoverFooter: {
+                      display: 'none'
+                    }
+                  }
+                }}
+              />
+            </header>
+          </SignedIn>
+          {/* </header> */}
           {children}
         </body>
       </html>
