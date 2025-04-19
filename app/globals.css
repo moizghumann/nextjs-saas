@@ -43,6 +43,18 @@
   --radius-xl: calc(var(--radius) + 4px);
 }
 
+body {
+
+  /* remove clerk branding for sign up component */
+  .cl-footer .cl-internal-1dauvpw {
+    display: none;
+  }
+
+  .cl-navbar .cl-internal-1dauvpw {
+    display: none;
+  }
+}
+
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
