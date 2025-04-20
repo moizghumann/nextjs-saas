@@ -58,15 +58,6 @@ export default function CyberpunkPage() {
             {/* Navigation */}
             <nav className="sticky top-0 z-30 border-b border-cyan-500/30 bg-black/80 px-6 py-4 backdrop-blur-md">
                 <div className="flex flex-wrap items-center justify-between gap-4">
-                    <div className="flex items-center gap-2">
-                        <div className="h-6 w-6 animate-pulse bg-cyan-500"></div>
-                        <h1
-                            className={`font-mono text-lg font-bold tracking-wider text-white ${glitchActive ? "translate-x-[1px] skew-x-3 text-red-500" : ""
-                                }`}
-                        >
-                            CYBER//PUNK
-                        </h1>
-                    </div>
                     <div className="hidden md:flex">
                         <div className="relative">
                             <div className="absolute -inset-0.5 animate-pulse bg-gradient-to-r from-cyan-500 to-fuchsia-500 opacity-75 blur"></div>
@@ -174,8 +165,9 @@ export default function CyberpunkPage() {
                             </p>
                             <p className="font-mono text-sm leading-relaxed text-gray-300">
                                 The style emerged as a response to the optimistic futurism of the 1950s and 60s, replacing it with a
-                                gritty realism that acknowledges technology's potential for both liberation and oppression.
+                                gritty realism that acknowledges technology&#39;s potential for both liberation and oppression.
                             </p>
+
                         </div>
 
                         <div className="relative">
@@ -186,7 +178,7 @@ export default function CyberpunkPage() {
                                     <span className="font-mono text-xs text-fuchsia-500">QUOTE.SYS</span>
                                 </div>
                                 <p className="font-mono text-sm italic leading-relaxed text-gray-300">
-                                    "The future is already here — it's just not evenly distributed."
+                                    &quot;The future is already here — it&#39;s just not evenly distributed.&quot;
                                 </p>
                                 <p className="mt-2 text-right font-mono text-xs text-fuchsia-500">— William Gibson</p>
                             </div>
@@ -446,8 +438,8 @@ export default function CyberpunkPage() {
                                     <span className="font-mono text-xs text-fuchsia-500">PREDICTION.SYS</span>
                                 </div>
                                 <p className="font-mono text-sm italic leading-relaxed text-gray-300">
-                                    "The future of cyberpunk design lies not in its aesthetic trappings but in its ability to critique the
-                                    present through the lens of a speculative future."
+                                    &quot;The future of cyberpunk design lies not in its aesthetic trappings but in its ability to critique the
+                                    present through the lens of a speculative future.&quot;
                                 </p>
                                 <div className="mt-4 font-mono text-xs text-fuchsia-500">SYSTEM.ANALYSIS_COMPLETE</div>
                             </div>
