@@ -174,8 +174,9 @@ export default function CyberpunkPage() {
                             </p>
                             <p className="font-mono text-sm leading-relaxed text-gray-300">
                                 The style emerged as a response to the optimistic futurism of the 1950s and 60s, replacing it with a
-                                gritty realism that acknowledges technology's potential for both liberation and oppression.
+                                gritty realism that acknowledges technology&#39;s potential for both liberation and oppression.
                             </p>
+
                         </div>
 
                         <div className="relative">
@@ -186,7 +187,7 @@ export default function CyberpunkPage() {
                                     <span className="font-mono text-xs text-fuchsia-500">QUOTE.SYS</span>
                                 </div>
                                 <p className="font-mono text-sm italic leading-relaxed text-gray-300">
-                                    "The future is already here — it's just not evenly distributed."
+                                    &quot;The future is already here — it&#39;s just not evenly distributed.&quot;
                                 </p>
                                 <p className="mt-2 text-right font-mono text-xs text-fuchsia-500">— William Gibson</p>
                             </div>
@@ -446,8 +447,8 @@ export default function CyberpunkPage() {
                                     <span className="font-mono text-xs text-fuchsia-500">PREDICTION.SYS</span>
                                 </div>
                                 <p className="font-mono text-sm italic leading-relaxed text-gray-300">
-                                    "The future of cyberpunk design lies not in its aesthetic trappings but in its ability to critique the
-                                    present through the lens of a speculative future."
+                                    &quot;The future of cyberpunk design lies not in its aesthetic trappings but in its ability to critique the
+                                    present through the lens of a speculative future.&quot;
                                 </p>
                                 <div className="mt-4 font-mono text-xs text-fuchsia-500">SYSTEM.ANALYSIS_COMPLETE</div>
                             </div>
