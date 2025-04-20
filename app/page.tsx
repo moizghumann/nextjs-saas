@@ -20,12 +20,13 @@ const Home = () => {
           </div>
         </header>
       </SignedOut>
-      < div className="flex items-center min-h-screen justify-center" >
-        <div className="flex items-center justify-center gap-3.5">
+      <div className="flex items-center justify-center min-h-[calc(100vh-6rem)] px-4 py-8 sm:py-12">
+        <div className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4">
           <BrutalistCard />
           <CyberpunkCard />
         </div>
-      </div >
+      </div>
+
     </>
   )
 }
