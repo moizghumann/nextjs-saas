@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function BrutalistPage() {
   return (
     <>
-      {/* Navigation */}
+      {/* Navigation
       <nav className="border-b-2 border-white p-4">
         <div className="flex items-center justify-between">
           <div className="h-6 w-6 bg-white"></div>
@@ -18,7 +18,7 @@ export default function BrutalistPage() {
             MENU
           </Button>
         </div>
-      </nav>
+      </nav> */}
 
       {/* Hero Section */}
       <section className="border-b-2 border-white p-4 md:p-8">
