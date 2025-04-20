@@ -58,15 +58,6 @@ export default function CyberpunkPage() {
             {/* Navigation */}
             <nav className="sticky top-0 z-30 border-b border-cyan-500/30 bg-black/80 px-6 py-4 backdrop-blur-md">
                 <div className="flex flex-wrap items-center justify-between gap-4">
-                    {/* <div className="flex items-center gap-2">
-                        <div className="h-6 w-6 animate-pulse bg-cyan-500"></div>
-                        <h1
-                            className={`font-mono text-lg font-bold tracking-wider text-white ${glitchActive ? "translate-x-[1px] skew-x-3 text-red-500" : ""
-                                }`}
-                        >
-                            CYBER//PUNK
-                        </h1>
-                    </div> */}
                     <div className="hidden md:flex">
                         <div className="relative">
                             <div className="absolute -inset-0.5 animate-pulse bg-gradient-to-r from-cyan-500 to-fuchsia-500 opacity-75 blur"></div>
