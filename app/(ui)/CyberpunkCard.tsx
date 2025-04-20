@@ -67,7 +67,7 @@ export default function CyberpunkCard() {
                                 ></div>
                             </div>
                             <p className="font-mono text-xs uppercase tracking-widest text-cyan-400">
-                                CYBER<span className="text-fuchsia-400">//</span>ID
+                                CYBER<span className="text-fuchsia-400">{/*//*/}</span>ID
                             </p>
                         </div>
                         <div className="flex items-center justify-between">
