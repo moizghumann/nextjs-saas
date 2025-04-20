@@ -12,7 +12,6 @@ const Home = () => {
         <header className="border-b-2 border-white p-4">
           <div className="flex items-center justify-between">
             <div className="h-6 w-6 bg-white"></div>
-            {/* <p className="font-mono text-xs uppercase trackOSignedOutg-widest">BRUTALISM</p> */}
             <SignUpButton>
               <button className=" hover:text-white hover:bg-black px-3 py-1 rounded border-2 text-sm font-mono text-black bg-white cursor-pointer uppercase">
                 Sign Up
