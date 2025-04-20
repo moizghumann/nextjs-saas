@@ -128,7 +128,17 @@ body {
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
+
+    /* remove clerk branding for sign up component */
+    .cl-footer .cl-internal-1dauvpw {
+      display: none;
+    }
+
+    .cl-navbar .cl-internal-1dauvpw {
+      display: none;
+    }
   }
 }
